@@ -6,6 +6,8 @@ Spotlight-Search
 ------------
  Added Some screens here.
  
+
+[![](https://github.com/pawankv89/Spotlight-Search/blob/master/images/screen_0.png)]
 [![](https://github.com/pawankv89/Spotlight-Search/blob/master/images/screen_1.PNG)]
 [![](https://github.com/pawankv89/Spotlight-Search/blob/master/images/screen_2.PNG)]
 [![](https://github.com/pawankv89/Spotlight-Search/blob/master/images/screen_3.PNG)]
