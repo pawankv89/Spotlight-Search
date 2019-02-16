@@ -42,6 +42,8 @@ When user tap to an item in Spotlight Search results, spotlightItemTapAction fun
 ## Refrence:-
 https://hackernoon.com/how-to-add-spotlight-support-to-your-ios-app-4a89054aff89
 
+https://www.hackingwithswift.com/read/32/4/how-to-add-core-spotlight-to-index-your-app-content
+
 ## Video Refrence:-
 https://github.com/pawankv89/Spotlight-Search/blob/master/Videos/SpotlightVideo.MP4
 
