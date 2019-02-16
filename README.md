@@ -37,9 +37,11 @@ SpotlightManager.sharedInstance.reloadInitialItems()
 
 When user tap to an item in Spotlight Search results, spotlightItemTapAction function is called. You can edit this function to do any action you want.
 
-##Refrence:-
+## Refrence:-
 https://hackernoon.com/how-to-add-spotlight-support-to-your-ios-app-4a89054aff89
 
+## Video Refrence:-
+https://github.com/pawankv89/Spotlight-Search/blob/master/Videos/SpotlightVideo.MP4
 
 ## License
 
