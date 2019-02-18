@@ -11,29 +11,6 @@ import UIKit
 import CoreSpotlight
 import MobileCoreServices
 
-/*
-class ViewController: UIViewController {
-
-    @IBOutlet weak var tableView: UITableView!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-       
-    }
-     func setSelectedItem(data: [String : String]){
-     
-     print("Selected Identifier custom: \(data)")
-     
-     }
-     
-    override func restoreUserActivityState(_ activity: NSUserActivity) {
-        if activity.activityType == CSSearchableItemActionType, let info = activity.userInfo, let selectedIdentifier = info[CSSearchableItemActivityIdentifier] as? String {
-            print("Selected Identifier default:  \(selectedIdentifier)")
-        }
-    }
-}*/
-
-
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     var printers: [Any] = []
@@ -88,8 +65,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         // create a new cell if needed or reuse an old one
-        //let cell:UITableViewCell = self.tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier) as UITableViewCell!
-        
         let cell: UITableViewCell = UITableViewCell(style: UITableViewCell.CellStyle.subtitle, reuseIdentifier: cellReuseIdentifier)
         
         // set the text from the data model
